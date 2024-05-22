@@ -11,7 +11,12 @@ To write my own  communication protocol. To put the theoretical knowledge into u
 * Create two branches:
     * picoH
     * STM32
-* Write bare-bones UART send/receive messages on both devices
+* ~~Write bare-bones UART send/receive messages on both devices~~
+* write a data-link layer for loopback testing on Pi Pico H
 
 ## _Misc_
 Anything extra I want to add such as references or images.
+
+### References
+[MicroPython quick reference](https://docs.micropython.org/en/latest/rp2/quickref.html)
+[Forum post used to test bare-bones loopback UART test on Pi Pico H](https://forum.micropython.org/viewtopic.php?t=11852)
